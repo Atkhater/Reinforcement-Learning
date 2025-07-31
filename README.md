@@ -1,10 +1,10 @@
 # Reinforcement-Learning
 Contains all Reinforcement Learning(RL) projects done in ECEN 522: Reinforcement Learning
-* **Lab 1** implementation and graphic plots for the _Multi-armed bandit_****. Uses the following strategies:_**Episolon-greedy, Optimistic initial values, Upper Confidence Bound (UCB1), Thompson sampling (Bayesian Bandits)**_.
-* **Lab 3** computes the _**value function**_ using _**policy interation with $\pi$**_
-* **Lab 4**
-* **Lab 5**
-* **Lab 7**
-* **Lab 8**
-* **Midterm Project**
-* **Final Project**
+* **Midterm Project** develop the _**action and reward**_ functions for a game of connect three. The game of connect three was trained against a Random model, and a model given by the professor. My model was put against all other students in the classroom tournament style, to see who has the best connect three model.
+* * **Final Project** uses experience replay with prioritized replay, fixed Q-targets, and double Q-learning to solve the Atari Pong Problem. Played against an OpenAI player. 
+* **Lab 1** implementation and graphic plots for the **_Multi-armed bandit_**. Uses the following strategies:_**Episolon-greedy, Optimistic initial values, Upper Confidence Bound (UCB1), Thompson sampling (Bayesian Bandits)**_.
+* **Lab 3** computes the _**value function**_ using _**policy interation with π**_ utilizing a predefined policy and a 5x5 Grid World. Modifies gridworld for probablistic transitions, defining the states such as actions and moves. Computes the _**optimal policy**_ using both _**policy iteration**_ and _**value iteration**_.
+* **Lab 4** explores _**Monte Carlo(MC)**_. Implements _**MC exploring**_ to compute _**value function**_ of Grid world, and to start control of GridWorld. Implements _**on-policy first visit MC control**_ without exploring starts. Also implements _**off-policy MC control**_. Uses _**Gym**_ and tests with its _**Cartpole**_, creating an agent utilizing MC. Implements a pyhton program on keyboard input to play Gym's _**CarRacing**_. Also implements an MC to play _**Tic-Tac-Toe**_. 
+* **Lab 5** implements _**SARSA, Q-learning, expected SARSA, and SARSA(n) algorithms**_ on GridWorld and CartPole.
+* **Lab 7** implements _**MC, Semi-gradiant SARSA, and Semi-gradient QLearning**_ for optimal control using _**linear function approximation**_ on CartPole, MountainCar, and LunarLander.
+* **Lab 8** implements a Deep Neural Network to detect position of left and right pads on a pong game from Atari. 
